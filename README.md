@@ -6,8 +6,8 @@ Este proyecto consiste en un sistema básico desarrollado en Java para digitaliz
 ## Estructura del código.
 Para mantener el orden y separar la lógica, el código fuente se organizó de manera modular en dos paquetes:
 
-Paquete model: Contiene las clases del dominio. Aquí se encuentra la clase base "Persona"; la clase "Empleado" (que hereda los atributos de Persona) y la clase "Direccion" (que se utiliza como atributo dentro de Persona para establecer una relación de composición). Todos los atributos fueron declaros de forma privada para asegurar el encapsulamiento, accediendo a ellos mediante métodos públicos.
-Paquete app: Contiene la clase principal "Main", la cual sirve como punto de entrada del sistema para instanciar los objetos y poner a prueba el modelo. 
+* Paquete model: Contiene las clases del dominio. Aquí se encuentra la clase base "Persona"; la clase "Empleado" (que hereda los atributos de Persona) y la clase "Direccion" (que se utiliza como atributo dentro de Persona para establecer una relación de composición). Todos los atributos fueron declaros de forma privada para asegurar el encapsulamiento, accediendo a ellos mediante métodos públicos.
+* Paquete app: Contiene la clase principal "Main", la cual sirve como punto de entrada del sistema para instanciar los objetos y poner a prueba el modelo. 
 
 ## Instrucciones de ejecución.
 Para compilar y probar el sustema localmente, se deben seguir los pasos:
